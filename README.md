@@ -1,18 +1,9 @@
-TypeScript Hello World Demo
-===========================
+TypeScript Node Module Export Mutable Variable Demo
+===================================================
+
+想看看node module是否可以把一个可变的变量export出去，结果是不行的。
 
 ```
 npm install
 npm run demo
 ```
-
-Note:
-
-`esModuleInterop` is recommended to set to `true`,
-since we can have consistent importing syntax with babel,
-always use:
-
-```
-import some from 'some'
-```
-
